@@ -27,4 +27,4 @@ def voice_detect():
         return json.dumps({'data': ret})
 
 # When debug = True, code is reloaded on the fly while saved
-app.run(host='192.168.1.91', port='5001', debug=True)
+app.run(host='0.0.0.0', port='5001', debug=True)
